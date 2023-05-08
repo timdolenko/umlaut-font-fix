@@ -6,7 +6,7 @@ For some reason your custom font freaks out and fails to display umlaut characte
 
 The reason for this probably is that the string contains, in case of ü, 2 unicode scolars `u`, `\u{0308}` (Combining Diaeresis), instead of one `\u{00FC}`, and your custom font doesn't have Combining Diaeresis defined. 
 
-Different represantaion of the ü:
+Different representation of the ü:
 
 | Char | Dec | Hex | Name |
 | --- | ----------- | ----------- | ----------- |
